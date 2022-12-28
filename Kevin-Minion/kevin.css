@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: rgba(0, 200, 255, 0.655);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{
+    background-color: aliceblue;
+    height: 55vh;
+    width: 45vh;
+}
+.lower
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerbox
+{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(34, 248, 56);
+    display: flex;
+    justify-content: center;
+    margin-top: 80px ;
+    align-items: center;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}

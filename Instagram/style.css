@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    height: 100vh;
+    width: 65vw;
+    background-image: url("images/bgimg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inbox{
+    height: 500px;
+    width: 300px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px;
+}
+.cover{
+    height: 30%;
+    width: 100%;
+    background-image: url("images/stone.jpg");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.profile{
+    height: 120px;
+    border-radius: 60%;
+   
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+#pic{
+    border: 4px solid rgb(255, 255, 255);
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(91, 14, 146); 
+    margin-top: -20px;
+}
+p.tagline{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+hr{
+    background-color: rgba(95, 88, 88, 0.132);
+}
+hr.hr1{
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 30px;
+}
+hr.hr2{
+    width: 80%;
+    margin-left: 30px;
+}
+.lowerbody{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    place-items: center;
+    
+    margin-bottom: 20px;
+}
+.btn{
+    width: 60%;
+    background-color: rgb(91, 14, 146);
+    margin-top: 50px;
+    margin-left: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.details2{
+    font-weight: bolder;
+}

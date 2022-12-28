@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    background-color: black;
+
+}
+.navbar{
+    height: 15vh;
+    margin-bottom: 10px;
+}
+.logo{
+    margin-left: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    height: 90vh;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.video{
+    position: relative;
+    width: 50vh;
+    margin-right: -10px;
+    margin-left: -10px;
+
+}
+
+.thumb{
+    height: 130px;
+    border-radius: 10px;
+    margin-left: 45px;
+    position: absolute;
+}
+.length{
+    top: 110px;
+    left: 235px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    height: 15px;
+    width: 38px;
+    background-color: black;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+} 
+.channel{
+    position: relative;
+    height: 40px;
+    border-radius: 20px;
+    top:145px;
+    left: 30px;
+}
+.details{
+    position: relative;
+    top: 100px;
+    left: 78px;
+    width: 35vh;
+}
+p.vidname{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 78%;
+    line-height: 130%;
+    font-weight: bold;
+}
+p.chname{
+    color: rgb(255, 255, 255);
+    line-height: 175%;
+    font-size: 85%;
+}
+p.viddetails{
+    color: rgb(208, 222, 253);
+    font-size: 93%;
+    line-height: 50%;
+}
